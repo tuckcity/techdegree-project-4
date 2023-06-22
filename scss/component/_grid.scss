@@ -21,11 +21,11 @@
   }
   
   .theme.col-1 {
-    background-color: #927bc1;
+    background-color: $color-info;
   }
   
   .theme.col-2 {
-    background-color: #fd7856;
+    background-color: $color-warning;
   }
   
   .theme.col-3 {
@@ -53,15 +53,15 @@
   }
   
   .theme.col-9 {
-    background-color: #e4757a;
+    background-color: $color-error;
   }
   
   .theme.col-10 {
-    background-color: #63cc82;
+    background-color: $color-success;
   }
   
   .theme.col-11 {
-    background-color: #51ddfc;
+    background-color: $color-default;
   }
   
   .theme.col-12 {
