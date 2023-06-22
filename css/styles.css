@@ -415,6 +415,31 @@ a {
   background-color: #fd7856;
 }
 
+.default:hover {
+  background-color: #9cecfd;
+  transition: 0.5s ease-in;
+}
+
+.error:hover {
+  background-color: #f1b5b8;
+  transition: 0.5s ease-in;
+}
+
+.info:hover {
+  background-color: #bdafd9;
+  transition: 0.5s ease-in;
+}
+
+.success:hover {
+  background-color: #9ddfb0;
+  transition: 0.5s ease-in;
+}
+
+.warning:hover {
+  background-color: #feb4a2;
+  transition: 0.5s ease-in;
+}
+
 /* ============================================= */
 /*              Forms                            */
 /* ============================================= */
@@ -449,7 +474,6 @@ a {
   display: flex;
   flex-direction: column;
 }
-
 .nav-link {
   text-align: center;
   border-radius: 5px;
@@ -458,7 +482,6 @@ a {
   width: 100%;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
-
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;

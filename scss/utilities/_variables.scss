@@ -15,3 +15,12 @@ $break-sm: 768px;
 $break-max: 1400px;
 
 
+// Button color maps
+
+$button-colors: (
+    'default': $color-default,
+    'error': $color-error,
+    'info': $color-info,
+    'success': $color-success,
+    'warning': $color-warning,
+);
